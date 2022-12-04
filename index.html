@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>calculator</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="cal">
+            <input id="result" type="text" placeholder="0">
+            <button onclick="clearValues()">CL</button>
+            <button onclick="back()">DEL</button>
+            <button onclick="displayValues('%')" >%</button>
+            <button onclick="displayValues('/')">/</button>
+            <button onclick="displayValues('7')">7</button>
+            <button onclick="displayValues('8')">8</button>
+            <button onclick="displayValues('9')">9</button>
+            <button onclick="displayValues('*')">*</button>
+            <button onclick="displayValues('4')">4</button>
+            <button onclick="displayValues('5')">5</button>
+            <button onclick="displayValues('6')">6</button>
+            <button onclick="displayValues('-')">-</button>
+            <button onclick="displayValues('1')">1</button>
+            <button onclick="displayValues('2')">2</button>
+            <button onclick="displayValues('3')">3</button>
+            <button onclick="displayValues('+')">+</button>
+            <button onclick="displayValues('.')">.</button>
+            <button onclick="displayValues('0')">0</button>
+    <button class="equal" onclick="evalOut()">=</button>
+        </div>
+    </div>
+
+</body>
+<script src="cal.js"></script>
+</html>
